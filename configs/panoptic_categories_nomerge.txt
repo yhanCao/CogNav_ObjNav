@@ -1,0 +1,474 @@
+Wheelchair
+Coconut
+Billards
+suitcase
+Lantern
+Radish
+Pen/Pencil
+potted plant
+Bicycle
+Other Balls
+Broom
+Cue
+Golf Club
+Corn
+Speed Limit Sign
+Penguin
+Orange/Tangerine
+Swan
+Onion
+Dessert
+bicycle
+Avocado
+French
+Cymbal
+Hanger
+Microwave
+floor
+Trophy
+Bowl/Basin
+Green Vegetables
+Cucumber
+Cabbage
+Violin
+Cello
+Horse
+Bracelet
+Projector
+kite
+platform
+Bow Tie
+American Football
+Stroller
+Traffic Sign
+Belt
+Soccer
+Mask
+Baseball Bat
+Campel
+Kite
+Hoverboard
+bowl
+Showerhead
+Buttefly
+Hotair ballon
+Game board
+couch
+Goldfish
+CD
+orange
+Pillow
+Tomato
+Golf Ball
+Cheese
+Bear
+Lettuce
+Skateboard
+tree
+Lighter
+Banana
+refrigerator
+Hair Dryer
+Bench
+Potato
+Dumpling
+motorcycle
+Sneakers
+carrot
+Table Teniis paddle
+Durian
+Skating and Skiing shoes
+Stapler
+Watermelon
+Stuffed Toy
+Blackboard/Whiteboard
+Remote
+Treadmill
+Pepper
+Pliers
+Wine Glass
+Grapefruit
+Parking meter
+backpack
+elephant
+Computer Box
+tv
+sandwich
+wine glass
+net
+Heavy Truck
+wall
+Hamimelon
+Rice
+Piano
+Induction Cooker
+keyboard
+Truck
+pavement
+earphone
+oven
+Soap
+Goose
+Tennis
+Key
+Egg
+SUV
+Red Cabbage
+Cell Phone
+food
+Fan
+sheep
+Trolley
+Comb
+sports ball
+mountain
+Street Lights
+Rice Cooker
+Tripod
+Converter
+Ship
+Chopsticks
+Air Conditioner
+Board Eraser
+Sandals
+Pickup Truck
+Train
+blanket
+Camera
+Broccoli
+Umbrella
+Formula 1 
+Pasta
+Dog
+Necklace
+rug
+Ambulance
+French Fries
+Stop Sign
+Meat ball
+snow
+fire hydrant
+Desk
+traffic light
+road
+Traffic Light
+Airplane
+Ladder
+toilet
+teddy bear
+Hurdle
+laptop
+horse
+Briefcase
+Globe
+Slippers
+Scallop
+skis
+Screwdriver
+Papaya
+Cow
+Spring Rolls
+Microphone
+playingfield
+Gas stove
+Sports Car
+Gun
+Pear
+Pie
+hair drier
+Trombone
+Dolphin
+water
+bear
+snowboard
+chair
+Pineapple
+Bus
+roof
+Napkin
+Eraser
+Head Phone
+Extention Cord
+broccoli
+Mushroon
+Crab
+Flower
+Monkey
+Helmet
+Marker
+Tricycle
+Lipstick
+Barrel/bucket
+Yak
+vase
+Hat
+Noddles
+Shovel
+Cleaning Products
+Sushi
+light
+Tong
+Lion
+Van
+parking meter
+Snowboard
+bench
+Luggage
+Cosmetics Brush/Eyeliner Pencil
+scissors
+Jellyfish
+Table Tennis 
+Strawberry
+Kiwi fruit
+Power outlet
+Toaster
+Tablet
+Swing
+Cherry
+Machinery Vehicle
+Elephant
+Tennis Racket
+bird
+remote
+Surveillance Camera
+zebra
+Candle
+fruit
+Dumbbell
+Leather Shoes
+Oyster
+Zebra
+Pumpkin
+cat
+airplane
+Eggplant
+curtain
+Sheep
+Megaphone
+Rabbit
+Peach
+Curling
+Egg tart
+Folder
+Cookies
+clock
+Electric Drill
+Volleyball
+Sausage
+Poker Card
+Hockey Stick
+Pigeon
+Fork
+person
+Handbag/Satchel
+Mouse
+Frisbee
+railroad
+train
+Calculator
+Spoon
+Boots
+Baozi
+Cosmetics
+Donut
+hot dog
+stairs
+Basketball
+Other Shoes
+handbag
+bottle
+cell phone
+Skiboard
+Tent
+sea
+Trumpet
+Green beans
+window-other
+Canned
+Cutting/chopping Board
+Scissors
+cow
+knife
+Pot
+Guitar
+banner
+Radiator
+Speaker
+Baseball
+stop sign
+Candy
+Flute
+building
+Seal
+Saxophone
+counter
+Toothbrush
+Blender
+Lifesaver
+Duck
+flower
+Pomegranate
+baseball bat
+sand
+window
+Chicken
+Sailboat
+Plate
+Notepaper
+tennis racket
+microwave
+Tea pot
+Okra
+Bakset
+Binoculars
+Bread
+Donkey
+Tape Measur/ Ruler
+Tuba
+cup
+Garlic
+Toiletry
+frisbee
+Kettle
+Backpack
+Medal
+Extractor
+Fire Extinguisher
+Sandwich
+Jug
+Cigar/Cigarette 
+Barbell
+spoon
+giraffe
+Rickshaw
+Tie
+door
+bus
+Toilet Paper
+Picture/Frame
+donut
+Pig
+Traffic cone
+Chips
+Car
+Brush
+Dishwasher
+Fishing Rod
+fence
+Trash bin Can
+Tissue
+umbrella
+Pencil Case
+Plum
+Storage box
+Boat
+Flag
+Cake
+High Heels
+bed
+Awning
+Mango
+Carrot
+cake
+Asparagus
+Coffee Machine
+Parrot
+house
+Motorcycle
+Slide
+Ice cream
+mouse
+Tape
+tie
+tent
+rock
+gravel
+Pizza
+Carriage
+bridge
+Nightstand
+Giraffe
+Chainsaw
+Wallet/Purse
+Hot dog
+Person
+Ballon
+Antelope
+pillow
+Washing Machine/Drying Machine
+toaster
+river
+Cosmetics Mirror
+Crosswalk Sign
+Recorder
+Cabinet/shelf
+wall-wood
+cardboard
+Stool
+Coffee Table
+Baseball Glove
+ceiling
+Carpet
+Surfboard
+Nuts
+Flask
+toothbrush
+Scale
+pizza
+Deer
+Paddle
+Other Fish
+book
+Hamburger
+Telephone
+Knife
+Grape
+grass
+boat
+Faucet
+skateboard
+Hammer
+Watch
+Mirror
+Helicopter
+Target
+Green Onion
+Laptop
+Apple
+Towel
+Router/modem
+Gloves
+Crane
+Paint Brush
+Cat
+dirt
+Glasses
+car
+Urinal
+Lobster
+Wild Bird
+Steak
+Mop
+Shrimp
+towel
+dog
+surfboard
+Ring
+fork
+Fire Truck
+truck
+Keyboard
+Lamp
+sky
+dining-table
+Lemon
+baseball glove
+banana
+apple
+Fire Hydrant
+Scooter
+Drum
+sink
+Bathtub
+mirror-stuff
+Printer
