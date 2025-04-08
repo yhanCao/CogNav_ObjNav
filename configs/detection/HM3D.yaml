@@ -1,0 +1,63 @@
+# Dataset
+image_height: 480
+image_width: 640
+camera_params:
+  image_height: 480
+  image_width: 640
+  fx: 600.0
+  fy: 600.0
+  cx: 599.5
+  cy: 339.5
+  png_depth_scale: 6553.5 #for depth image in png format
+  crop_edge: 0
+# Input detections
+
+box_threshold: 0.2
+text_threshold: 0.2
+nms_threshold: 0.5
+device: cuda
+
+use_iou: !!bool True
+spatial_sim_type: overlap # "iou", "giou", "overlap"
+phys_bias: 0.0
+match_method: "sim_sum" # "sep_thresh", "sim_sum"
+# Only when match_method=="sep_thresh"
+semantic_threshold: 0.5
+physical_threshold: 0.5
+# Only when match_method=="sim_sum"
+sim_threshold: 1.2
+
+# For contain_number
+use_contain_number: !!bool False
+contain_area_thresh: 0.95
+contain_mismatch_penalty: 0.5
+
+# Selection criteria on the 2D masks
+mask_area_threshold: 25 # mask with pixel area less than this will be skipped
+mask_conf_threshold: 0.25 # mask with lower confidence score will be skipped
+max_bbox_area_ratio: 0.5 # boxes with larger areas than this will be skipped
+skip_bg: False
+min_points_threshold: 16 # projected and sampled pcd with less points will be skipped
+
+# point cloud processing
+downsample_voxel_size: 0.02
+dbscan_remove_noise: !!bool True
+dbscan_eps: 15
+# dbscan_eps: 15
+dbscan_min_points: 10
+cal_batch_size: 40960
+# Selection criteria of the fused object point cloud
+obj_min_points: 0
+obj_min_detections: 3
+
+# For merge_overlap_objects() function
+merge_overlap_high_thresh: 0.8
+merge_overlap_thresh: 0.7      # -1 means do not perform the merge_overlap_objects()
+merge_visual_sim_thresh: 0.7   # Merge only if the visual similarity is larger
+merge_text_sim_thresh: 0.7     # Merge only if the text cosine sim is larger
+
+# Periodically perform post-process operations every k frame
+# -1 means not perform them during the run. They are performed at the end anyway. 
+denoise_interval: 1           # Run DBSCAN every k frame. This operation is heavy
+filter_interval: 1            # Filter objects that have too few associations or are too small
+merge_interval: 1             # Merge objects based on geometric and semantic similarity

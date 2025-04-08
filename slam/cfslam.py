@@ -137,7 +137,6 @@ def cfvoxel(cfg,res,gobs,objects,idx,step,classes,bg_objects,img_name,pcd_path,s
             BG_CLASSES = bg_objects,
             color_path = img_name
         )
-
     bg_detection_list = remove_outlier(cfg,bg_detection_list)
     fg_detection_list = remove_outlier(cfg,fg_detection_list)
 

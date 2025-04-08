@@ -5,12 +5,12 @@ SIMULATOR:
   TILT_ANGLE: 30
   ACTION_SPACE_CONFIG: "v1"
   AGENT_0:
-    SENSORS: ['RGB_SENSOR', 'DEPTH_SENSOR']
+    SENSORS: ['RGB_SENSOR', 'DEPTH_SENSOR', 'SEMANTIC_SENSOR']
     HEIGHT: 0.88
     RADIUS: 0.18
   HABITAT_SIM_V0:
     GPU_DEVICE_ID: 0
-    ALLOW_SLIDING: False
+    ALLOW_SLIDING: True 
   SEMANTIC_SENSOR:
     WIDTH: 640
     HEIGHT: 480
@@ -28,18 +28,21 @@ SIMULATOR:
     MIN_DEPTH: 0.5
     MAX_DEPTH: 5.0
     POSITION: [0, 0.88, 0]
+  SCENE_DATASET: "DATA/HM3D/scene_datasets/hm3d_v0.2/hm3d/hm3d_annotated_basis.scene_dataset_config.json"
 TASK:
   TYPE: ObjectNav-v1
   POSSIBLE_ACTIONS: ["STOP", "MOVE_FORWARD", "TURN_LEFT", "TURN_RIGHT", "LOOK_UP", "LOOK_DOWN"]
-  SENSORS: ['GPS_SENSOR', 'COMPASS_SENSOR']
-  MEASUREMENTS: ['DISTANCE_TO_GOAL', 'SUCCESS', 'SPL']
+  SENSORS: ['OBJECTGOAL_SENSOR', 'GPS_SENSOR', 'COMPASS_SENSOR']
   GOAL_SENSOR_UUID: objectgoal
+  MEASUREMENTS: ['DISTANCE_TO_GOAL', 'SUCCESS', 'SPL']
+  DISTANCE_TO_GOAL:
+    DISTANCE_TO: VIEW_POINTS
   SUCCESS:
-    SUCCESS_DISTANCE: 0.2
+    SUCCESS_DISTANCE: 0.1
 
 DATASET:
-  TYPE: PointNav-v1
-  SPLIT: train
-  DATA_PATH: "data/datasets/objectnav/gibson/v1.1/{split}/{split}.json.gz"
-  EPISODES_DIR: "data/datasets/objectnav/gibson/v1.1/{split}/"
-  SCENES_DIR: "/data/p305574/data/scene_datasets"
+  TYPE: ObjectNav-v1
+  SPLIT: val
+  DATA_PATH: "DATA/HM3D/objectgoal_hm3d/{split}/{split}.json.gz"
+  SCENES_DIR: "DATA/HM3D/scene_datasets"
+

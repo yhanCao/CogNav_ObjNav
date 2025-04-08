@@ -208,7 +208,6 @@ def removalOverlap(cfg,objects,bg_objects,changed):
                             objects[j]['voxel_index'] = objects[j]['voxel_index'][mask]
                             changed.append(j)
                         else :
-
                             mask = np.isin(objects[i]['voxel_index'], common_elements, invert=True)
                             objects[i]['voxel_index'] = objects[i]['voxel_index'][mask]
                             changed.append(j)
