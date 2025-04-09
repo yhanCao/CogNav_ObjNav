@@ -344,3 +344,11 @@ class Semantic_Mapping_SG(nn.Module):
             print("no satisfied")
             select_idx = start_idx
         return select_idx
+    def get_mask(self, mask_range):
+        size = int(mask_range) * 2
+        mask = torch.zeros(size, size)
+        for i in range(size):
+            for j in range(size):
+                if ((i + 0.5) - (size // 2)) ** 2 + ((j + 0.5) - (size // 2)) ** 2 <= mask_range ** 2:
+                    mask[i, j] = 1
+        return mask
