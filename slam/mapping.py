@@ -153,7 +153,29 @@ def aggregate_similarities(cfg, spatial_sim: torch.Tensor, visual_sim: torch.Ten
     
     return sims
 
-
+def merge_detections_to_objects(
+    cfg, 
+    detection_list: DetectionList, 
+    objects: MapObjectList, 
+    agg_sim: torch.Tensor
+) -> MapObjectList:
+    changed=[]
+    # print('!!!!!!!!!!!! merge_detections_to_objects  !!!!!!!!!!!!!!!!!!')
+    # Iterate through all detections and merge them into objects
+    for i in range(agg_sim.shape[0]):
+        # If not matched to any object, add it as a new object
+        if agg_sim[i].max() == float('-inf'):
+            objects.append(detection_list[i])
+            changed.append(i)
+        # Merge with most similar existing object
+        else:
+            j = agg_sim[i].argmax()
+            matched_det = detection_list[i]
+            matched_obj = objects[j]
+            merged_obj = merge_obj2_into_obj1_2(cfg, matched_obj, matched_det, run_dbscan=False)
+            objects[j] = merged_obj
+            changed.append(j.item())
+    return objects,changed
 def VoxelMergeStrategy(
     cfg, 
     detection_list: DetectionList, 
