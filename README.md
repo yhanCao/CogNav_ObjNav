@@ -6,7 +6,7 @@
 
 <!-- CogNav is an effective cognitive process modeling for ObjectNav via exploiting the commonsense and spatial reasoning capability of LLMs by online constructing a heterogeneous cognitive map representation.  
 Our method is a <b>zero-shot</b> framework, that can be directly applied to different kinds of scenes and categories <b>without training</b>. -->
-This is the official implementation of the paper "[CogNav: Cognitive Process Modeling for Object Goal Navigation with LLMs](https://arxiv.org/abs/2412.10439)".
+This is the official implementation of our ICCV 2025 paper "[CogNav: Cognitive Process Modeling for Object Goal Navigation with LLMs](https://arxiv.org/abs/2412.10439)".
 
 ## :bulb: Demo
 ### Scene1:
